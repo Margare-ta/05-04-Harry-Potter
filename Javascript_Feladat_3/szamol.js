@@ -1,8 +1,11 @@
-let Kvaff = document.getElementById('myInput')
-let Arany = document.getElementById('myin')
+let Kvaff = document.getElementById("myInput").value = "0";
+let Arany = document.getElementById("myin").value = "0";
 
 
 
-function szamolas() {
-    
-  }
+if(Kvaff.value < 0){
+  Kvaff.innerHTML = "0";
+}
+
+
+
