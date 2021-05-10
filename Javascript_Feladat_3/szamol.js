@@ -2,7 +2,7 @@ let Kvaff = document.getElementById("myInput").value = "0";
 let Arany = document.getElementById("myin").value = "0";
 let bed = document.getElementById("bedobas");
 let elkap = document.getElementById("elkap");
-
+let h2 = document.getElementById("h2");
 
 bed.addEventListener("click", valueee);
 elkap.addEventListener("click", arany);
