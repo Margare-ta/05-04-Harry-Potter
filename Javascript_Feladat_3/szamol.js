@@ -24,7 +24,7 @@ function valueee(){
 }
 
 function arany(){
-  for (let szam2 = 0; szam2 < 2; szam2++ ) {
+  for (let szam2 = 0; szam2 < 3; szam2++ ) {
 
     function fact(szam2) { 
       if (szam2 < 0){
